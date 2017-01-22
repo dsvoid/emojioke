@@ -223,8 +223,7 @@ function ui_startSRRecording() {
             .attr('onclick', 'stopSRRecording()')
             .blur();
     $('#breath_button').html("click me often!");
-    $('#breath_button').attr("onclick()","restartSRRecording()");
-    //$('#breath_button').remove();
+    $('#breath_button').remove();
 }
 
 function ui_stopSRRecording() {
