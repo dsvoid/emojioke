@@ -20,6 +20,7 @@
         <script type="text/javascript" src="js/utils/promises/q.js"></script>
         <script type="text/javascript" src="js/utils/data_utils.js"></script>
         <script type="text/javascript" src="js/utils/string_utils.js"></script>
+        <script type="text/javascript" src="js/emojiList.js"></script>
         <script type="text/javascript" src="js/main.js"></script>
         <script type="text/javascript" src="js/ui.js"></script>
         <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
@@ -274,7 +275,8 @@ Warp: Fastest transcription time, may be less accurate." /></span>
                     </div>
                     <button type="button" id="sr_button" class="btn btn-primary btn-lg" onclick="startSRRecording()">Start recording</button>
                     <br /><br />
-                    <textarea placeholder="Results..." readonly style="resize:none" class="form-control input-md" rows="20" id="sr_results"></textarea>
+                    <textarea placeholder="Results..." readonly style="resize:none" class="form-control input-md emojioke_out" rows="20" id="sr_results"></textarea>
+                    <div class="emojioke_out" id="emoji_results"></div>
                 </div>
             </div>
 <!--  SPEECH RECO COMMANDS END  -->

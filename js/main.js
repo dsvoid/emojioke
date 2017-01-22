@@ -167,6 +167,9 @@ function initWebSocket() {
                     {
                         $('#sr_results').append(response.QueryResult.transcription);
                         $('#sr_results').append("\n");
+                        var words = response.QueryResult.transcription.toString().split(" ");
+                        lookForEmoji(words);
+                        $('#emoji_results').append("<br/>");
                     }
                     if (currentCommand == "NinaDoSpeechRecognition_fromAudioFile" && response.QueryResult.final_response) {
                         ui_stopSRRecording();

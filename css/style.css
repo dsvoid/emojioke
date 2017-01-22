@@ -5,3 +5,20 @@ body {
   padding: 40px 15px;
   text-align: center;
 }
+
+@font-face {
+ font-family: 'EmojiOne';
+  src: url(/images/EmojiOneColor-SVGinOT.ttf);
+}
+
+.emojioke_out {
+  background-color:#dedede;
+  float: left !important;
+  width: 49% !important;
+  min-height: 400px;
+}
+
+#emoji_results {
+  font-size: 30px;
+  text-align: left;
+}
