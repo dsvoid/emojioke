@@ -1,3 +1,14 @@
+$(document).ready(function(){
+    console.log('autoselecting certain things, jury-rigging the UI...');
+    $('#button-start-end').click();
+    $('#sr_engine').val('MREC');
+});
+
+function closeTutorialStartMusic() {
+    $('.lolLeft').remove();
+    console.log("hey!");
+}
+
 var sHost = "nim-rd.nuance.mobi";
 var sPort = 9443;
 

@@ -1,7 +1,6 @@
 var emojiList = {
     "naughty":"&#x1f608;",
     "cry":"&#x1F602;",
-    "i":"&#x1F440;",
     "see":"&#x1F440;",
     "eye":"&#x1F440;",
     "gun":"&#x1F52B;",
@@ -57,8 +56,9 @@ var emojiList = {
 
 function lookForEmoji(words) {
     for(i = 0; i < words.length; i++) {
+        var word = words[i].toString().toLowerCase();
         $.each(emojiList, function(key,value){
-            if (words[i].toString().toLowerCase().indexOf(key) == 0) {
+            if(word.indexOf(key) == 0) {
                 console.log(value);
                 $('#emoji_results').append(value);
                 $('#emoji_results').append(" ");
