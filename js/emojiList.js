@@ -24,7 +24,7 @@ var emojiList = {
     "egg":"&#x1F373;",
     "boy":"&#x1F466;",
     "girl":"&#x1F467;",
-    "smoking":"&#x1F6AC;",
+    "smok":"&#x1F6AC;",
     "rain":"&#x2614;",
     "sun":"&#x2600;",
     "garden":"&#x1F3E1;",
