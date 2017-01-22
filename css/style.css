@@ -12,10 +12,10 @@ body {
 }
 
 .emojioke_out {
-  background-color:#dedede;
+  background-color:#efefef;
   float: left !important;
   width: 49% !important;
-  min-height: 400px;
+  min-height: 480px;
 }
 
 #emoji_results {
